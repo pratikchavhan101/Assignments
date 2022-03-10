@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-07</title>
+</head>
+<body>
+    <Script>
+      
+        var person={
+            fname:String,
+            lname:String,
+            age:Number,
+            skills:Array,
+            address:{
+            city:String,
+            pincode:Number,
+        },
+            
+            dateOfBirth:Date, 
+            married:Boolean,
+            profession:String,
+            };
+            
+        var person=function(fname,lname,age,skills,dateOfBirth,address,married,profession)
+        {
+            this.fname=fname;
+            this.lname=lname;
+            this.age=age;
+            this.skills=skills;
+            this.dateOfBirth=dateOfBirth;
+            this.address=address;
+            this.married=married;
+            this.profession=profession;
+        }
+        person1=new person("Pratik","Chavhan",22,"Java","28/01/2000",{city:"Indore",pincode:00001},"false","Web Developer");
+       
+        person2=new person("Harish","Mohite",21,"C++","26/06/2000",{city:"Nagpur",pincode:"00002"},"false","Data Analyst");
+        print=function()
+        {
+            console.log(person1);
+            console.log(person2);
+        }();
+            
+    </Script>
+</body>
+</html>
