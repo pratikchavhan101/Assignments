@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-02</title>
+</head>
+<body>
+    <script>
+
+        function test(age){
+            if (age){
+              let fname = "Pratik";     //Block level variable.
+              const lname="Chavhan";   //Block level variable.
+              console.log(`${fname} ${lname} your age is 18+.`); //Tried Accessing variable in the block.
+            }
+            console.log(`${fname} ${lname} your age is not 18+.`); // Tried Accessing variable out of the block scope
+        }
+
+        test(true);
+        test(false);
+
+
+    </script>
+</body>
+</html>
