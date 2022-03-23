@@ -1,0 +1,38 @@
+{
+  "addList": [
+    {
+      "addTitle": "RealMe",
+      "addName": "Maruti Suzuki",
+      "date": "2022-03-30T18:30:00.000Z",
+      "category": "Mobile",
+      "description": "NA",
+      "id": 1
+    },
+    {
+      "addTitle": "Tables, Ladders & Chairs",
+      "addName": "KK Group",
+      "date": "2022-03-28T18:30:00.000Z",
+      "category": "Furniture",
+      "description": "NA",
+      "id": 2
+    },
+    {
+      "addTitle": "TV Onida",
+      "addName": "Onida Group",
+      "date": "2022-04-14T18:30:00.000Z",
+      "category": "Hardware",
+      "description": "NA",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
